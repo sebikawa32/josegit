@@ -1,0 +1,73 @@
+.marathon-search {
+  margin-top: 100px; /* 배너 높이에 맞춰 위쪽 여백 */
+  padding: 20px;
+}
+
+/* 검색바 전체 */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* 반응형: 작아지면 줄바꿈 */
+  gap: 10px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+/* 입력창, 드롭다운, 버튼 공통 스타일 */
+.search-bar input,
+.search-bar select,
+.search-bar button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+.search-bar input:focus,
+.search-bar select:focus {
+  border-color: #6c63ff;
+}
+
+/* 버튼 스타일 */
+.search-bar button {
+  background-color: #6c63ff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+  background-color: #5548c8;
+}
+
+/* 인기 검색어 */
+.popular-keywords {
+  margin-top: 20px;
+}
+
+.popular-keywords h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.popular-keywords ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.popular-keywords li {
+  padding: 8px 15px;
+  background-color: #f0f0f0;
+  margin-bottom: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.popular-keywords li:hover {
+  background-color: #ddd;
+}
