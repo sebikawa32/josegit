@@ -1,0 +1,82 @@
+/* Header.css */
+
+.App-header {
+  background-color: #2a2a72;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.logo {
+  flex: 1;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links {
+  flex: 2;
+  list-style: none;
+  display: flex;
+  justify-content: center; /* 중앙 정렬! */
+  align-items: center;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links a, .dropdown-title {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #3c3c8a;
+  border-radius: 8px;
+  overflow: hidden;
+  min-width: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+}
+
+.dropdown-menu li:hover {
+  background-color: #5555aa;
+}
+
+.dropdown-menu a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
