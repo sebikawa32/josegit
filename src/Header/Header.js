@@ -56,7 +56,9 @@ function Header() {
               <span className="dropdown-title">커뮤니티 ▾</span>
               {isCommunityDropdownOpen && (
                 <ul className="dropdown-menu">
-                  <li><Link to="/Community/Board">게시판</Link></li>
+                  <li><Link to="/Community/notionBoard">공지사항</Link></li>
+                  <li><Link to="/Community/">정보공유</Link></li>
+                  <li><Link to="/Community/Board">자유게시판</Link></li>
                   <li><Link to="/Community/Crew">크루모집</Link></li>
                 </ul>
               )}
@@ -81,8 +83,8 @@ function Header() {
         {/* 오른쪽: 알림, MY */}
         <div className="nav-right">
           <ul className="nav-links">
-            <li><Link to="/Notification">🔔</Link></li>
-            <li><Link to="/My">MY</Link></li>
+            <li><Link to="Notification/Notification">🔔</Link></li>
+            <li><Link to="My/My">MY</Link></li>
           </ul>
         </div>
       </nav>

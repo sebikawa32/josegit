@@ -11,11 +11,20 @@
 .App-header {
   background-color: #2a2a72;
   color: white;
-  padding: 10px 20px;
+  padding: 20px;
   position: fixed;
-  width: 100%;
   top: 0;
-  z-index: 1000;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* 헤더가 위에 있도록 설정 */
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content {
+  padding-top: 120px; /* 헤더 높이만큼 밀어주기 */
   box-sizing: border-box;
 }
 
@@ -33,4 +42,10 @@
   width: 100vw; /* 화면 너비에 맞게 설정 */
   max-width: 100%;
   height: auto;
+}
+
+.main-content {
+  padding-top: 140px; /* 헤더 높이만큼 밀어주기 */
+  box-sizing: border-box;
+  margin-top: 120px; /* padding-top을 margin-top으로 조정하여 안정적 적용 */
 }

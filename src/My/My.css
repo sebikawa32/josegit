@@ -1,0 +1,59 @@
+.my-page-container {
+    padding: 20px;
+    padding-top: 120px; /* 배너 높이에 맞춰 여백 추가 */
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .profile-section, .training-section, .favorite-marathons-section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #5548c8;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .training-item, .marathon-item {
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  
+  .training-item:hover, .marathon-item:hover {
+    background-color: #ddd;
+  }
+  
+  .edit-button, .add-training-button, .add-marathon-button {
+    display: block;
+    width: 100%;
+  }

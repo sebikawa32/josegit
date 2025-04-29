@@ -1,0 +1,51 @@
+/* src/Community/NotionBoard.css */
+.notion-board-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  padding-top: 120px; 
+}
+
+.notion-board-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.notion-board-list {
+  list-style: none;
+  padding: 0;
+}
+
+.notion-board-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.notion-board-item:hover {
+  background-color: #f0f0f0;
+}
+
+.notion-board-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.notion-board-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.notion-board-date {
+  font-size: 0.875rem;
+  color: #777;
+  margin-top: 5px;
+}
+
+.notion-board-description {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #555;
+}

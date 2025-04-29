@@ -42,6 +42,7 @@ function Home() {
             <Link to="/Community/Board">게시판</Link>
           </h3>
           <ul className="community-board-posts">
+
             <li>
               <Link to="/Community/Board/Post1">
                 <div className="post">
@@ -50,6 +51,7 @@ function Home() {
                 </div>
               </Link>
             </li>
+
             <li>
               <Link to="/Community/Board/Post2">
                 <div className="post">
@@ -58,6 +60,16 @@ function Home() {
                 </div>
               </Link>
             </li>
+
+            <li>
+              <Link to="/Community/Board/Post2">
+                <div className="post">
+                  <h4>런닝이 다이어트에 좋나요?</h4>
+                  <p>글쓴이: 뚱냥이 | 날짜: 2025-04-29</p>
+                </div>
+              </Link>
+            </li>
+
             {/* 추가 게시글 여기에 */}
           </ul>
         </div>
